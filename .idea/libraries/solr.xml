@@ -1,0 +1,68 @@
+<component name="libraryTable">
+  <library name="solr">
+    <CLASSES>
+      <root url="jar:///opt/solr/contrib/velocity/lib/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/velocity/lib/commons-collections-3.2.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/velocity/lib/velocity-1.7.jar!/" />
+      <root url="jar:///opt/solr/contrib/velocity/lib/velocity-tools-2.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lucene-libs/lucene-analyzers-uima-4.1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lib/WhitespaceTokenizer-2.3.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lib/AlchemyAPIAnnotator-2.3.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lib/uimaj-core-2.3.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lib/commons-digester-2.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lib/OpenCalaisAnnotator-2.3.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/uima/lib/Tagger-2.3.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/langid/lib/langdetect-1.1-20120112.jar!/" />
+      <root url="jar:///opt/solr/contrib/langid/lib/jsonic-1.2.7.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/xz-1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/poi-3.8.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/rome-0.9.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/vorbis-java-core-0.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/metadata-extractor-2.4.0-beta-1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/pdfbox-1.7.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/poi-scratchpad-3.8.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/xmlbeans-2.3.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/isoparser-1.0-RC-1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/icu4j-49.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/poi-ooxml-schemas-3.8.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/commons-compress-1.4.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/boilerpipe-1.1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/netcdf-4.2-min.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/jempbox-1.7.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/poi-ooxml-3.8.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/juniversalchardet-1.0.3.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/bcmail-jdk15-1.45.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/jdom-1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/fontbox-1.7.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/tika-core-1.2.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/vorbis-java-tika-0.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/tagsoup-1.2.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/xercesImpl-2.9.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/tika-parsers-1.2.jar!/" />
+      <root url="jar:///opt/solr/contrib/extraction/lib/bcprov-jdk15-1.45.jar!/" />
+      <root url="jar:///opt/solr/contrib/dataimporthandler/lib/mail-1.4.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/dataimporthandler/lib/activation-1.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/simple-xml-2.6.4.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/hppc-0.4.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/jackson-mapper-asl-1.7.4.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/mahout-collections-1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/attributes-binder-1.0.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/jackson-core-asl-1.7.4.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/mahout-math-0.6.jar!/" />
+      <root url="jar:///opt/solr/contrib/clustering/lib/carrot2-core-3.6.2.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-stempel-4.1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-icu-4.1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-smartcn-4.1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lucene-libs/lucene-analyzers-morfologik-4.1.0.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lib/morfologik-stemming-1.5.5.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lib/morfologik-polish-1.5.5.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lib/icu4j-49.1.jar!/" />
+      <root url="jar:///opt/solr/contrib/analysis-extras/lib/morfologik-fsa-1.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
