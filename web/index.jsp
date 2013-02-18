@@ -5,7 +5,7 @@
 </head>
 <body>
 <div>
-    <form action="servlet-add" method="GET">
+    <form action="index.jsp" method="GET">
         <table id="crawler">
             <tr>
                 <td>choose url</td>

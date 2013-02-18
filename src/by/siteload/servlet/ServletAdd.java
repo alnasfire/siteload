@@ -1,13 +1,10 @@
 package by.siteload.servlet;
 
-import by.siteload.solr.SearchHelper;
-
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.util.Enumeration;
-import java.util.List;
 
 public class ServletAdd extends HttpServlet {
     @Override
@@ -20,9 +17,6 @@ public class ServletAdd extends HttpServlet {
         this.process(request, response);
     }
 
-    /*
-        generate the page showing all the request parameters
-    */
     private void process(HttpServletRequest request, HttpServletResponse response) throws IOException {
         File seed = new File("/opt/nutch/urls/seed.txt");
         FileOutputStream outSeed = new FileOutputStream(seed, true);

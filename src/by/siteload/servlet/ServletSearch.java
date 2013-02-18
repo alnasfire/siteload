@@ -21,9 +21,6 @@ public class ServletSearch extends HttpServlet {
         this.process(request, response);
     }
 
-    /*
-        generate the page showing all the request parameters
-    */
     private void process(HttpServletRequest request, HttpServletResponse response) throws IOException {
         SearchHelper search = new SearchHelper();
 

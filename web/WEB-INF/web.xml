@@ -23,7 +23,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>servletAdd</servlet-name>
-        <url-pattern>/servlet-add</url-pattern>
+        <url-pattern>/index.jsp</url-pattern>
     </servlet-mapping>
 
     <filter>
