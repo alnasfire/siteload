@@ -44,11 +44,4 @@ public class SearchHelper {
         }
         return results;
     }
-
-    public static void main(String[] args) {
-        SearchHelper search = new SearchHelper();
-        for (String s : search.getResults("неффертити")) {
-            System.out.println(s);
-        }
-    }
 }

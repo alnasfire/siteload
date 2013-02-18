@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38be635e-77eb-4fa2-9adc-4b3e98c8ee71" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/siteload/encoder/EncodingFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/result.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/solr.xml" afterPath="$PROJECT_DIR$/.idea/libraries/solr.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java" afterPath="$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java" afterPath="$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/by/siteload/solr/SearchHelper.java" afterPath="$PROJECT_DIR$/src/by/siteload/solr/SearchHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/result.jsp" afterPath="$PROJECT_DIR$/web/result.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/search.jsp" afterPath="$PROJECT_DIR$/web/search.jsp" />
     </list>
     <ignored path="siteload.iws" />
@@ -73,7 +69,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="56" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.5">
+            <state line="14" column="71" selection-start="465" selection-end="465" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -82,39 +78,16 @@
       <file leaf-file-name="search.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/search.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="82" selection-start="401" selection-end="401" vertical-scroll-proportion="-7.5">
+            <state line="15" column="71" selection-start="451" selection-end="451" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EncodingFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/siteload/encoder/EncodingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/by/siteload/solr/SearchHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="66" selection-start="1325" selection-end="1325" vertical-scroll-proportion="-10.84">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#654#662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServletSearch.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ServletSearch.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="8" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.32173914">
+            <state line="30" column="73" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +95,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/result.jsp">
+      <file leaf-file-name="CrawlHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/siteload/crawler/CrawlHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="-8.125">
+            <state line="4" column="72" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletAdd.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="78" selection-start="805" selection-end="805" vertical-scroll-proportion="0.35334477">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +127,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="21" selection-start="1254" selection-end="1254" vertical-scroll-proportion="-21.666666">
+            <state line="18" column="76" selection-start="669" selection-end="669" vertical-scroll-proportion="-12.380953">
               <folding />
             </state>
           </provider>
@@ -157,6 +141,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="alnasfire" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -165,14 +154,14 @@
         <option value="$PROJECT_DIR$/src/by/siteload/crawler/CrawlHelper.java" />
         <option value="$PROJECT_DIR$/src/by/siteload/solr/IndexDriver.java" />
         <option value="$PROJECT_DIR$/src/by/siteload/servlet/SearchServlet.java" />
-        <option value="$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/by/siteload/encoder/EncodingFilter.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/by/siteload/solr/SearchHelper.java" />
-        <option value="$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java" />
         <option value="$PROJECT_DIR$/web/result.jsp" />
+        <option value="$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/search.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java" />
       </list>
     </option>
   </component>
@@ -263,24 +252,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siteload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="siteload" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -750,6 +721,11 @@
       <created>1360571231218</created>
       <updated>1360571231218</updated>
     </task>
+    <task id="LOCAL-00001" summary="some new servlets">
+      <created>1361199327310</created>
+      <updated>1361199327310</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -839,11 +815,11 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="some new servlets" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
     <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
     <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
@@ -852,6 +828,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="some new servlets" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -909,11 +886,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java">
+    <entry file="jar:///usr/lib/jvm/jdk1.7.0_03/src.zip!/java/lang/StringCoding.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="1" selection-start="2182" selection-end="2182" vertical-scroll-proportion="1.3913044">
+        <state line="97" column="27" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.33272728">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk1.7.0_03/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="451" column="34" selection-start="16240" selection-end="16240" vertical-scroll-proportion="0.5009311">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/siteload/encoder/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.2669039">
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/solr/dist/servlet-api-2.5-20081211.jar!/javax/servlet/ServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="386" selection-end="386" vertical-scroll-proportion="0.3272727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="64" selection-start="135" selection-end="135" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/siteload/solr/SearchHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="760" selection-end="760" vertical-scroll-proportion="0.13309982">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#655#663#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -929,68 +944,44 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="1254" selection-end="1254" vertical-scroll-proportion="-21.666666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/siteload/encoder/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/by/siteload/solr/SearchHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="66" selection-start="1325" selection-end="1325" vertical-scroll-proportion="-10.84">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#654#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.7.0_03/src.zip!/java/lang/StringCoding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="27" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.33272728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/jdk1.7.0_03/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="451" column="34" selection-start="16240" selection-end="16240" vertical-scroll-proportion="0.5009311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="56" selection-start="132" selection-end="132" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="-8.125">
+        <state line="18" column="76" selection-start="669" selection-end="669" vertical-scroll-proportion="-12.380953">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="82" selection-start="401" selection-end="401" vertical-scroll-proportion="-7.5">
+        <state line="15" column="71" selection-start="451" selection-end="451" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="71" selection-start="465" selection-end="465" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/by/siteload/servlet/ServletSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="8" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.32173914">
+        <state line="30" column="73" selection-start="956" selection-end="956" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/siteload/crawler/CrawlHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/siteload/servlet/ServletAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="78" selection-start="805" selection-end="805" vertical-scroll-proportion="0.35334477">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.charset.Charset;
 import java.util.Enumeration;
 import java.util.List;
 
@@ -45,7 +44,7 @@ public class ServletSearch extends HttpServlet {
             try {
                 if (values.length > 0) {
                     String str = values[0];
-                    str = new String(str.getBytes("ISO8859_1"), "UTF8");
+                    str = new String(str.getBytes("ISO-8859-1"), "UTF8");
                     out.println(str);
                     List<String> links = search.getResults(str);
                     for (String s : links) {
