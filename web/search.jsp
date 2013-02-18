@@ -1,26 +1,29 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title></title>
 </head>
 <body>
 <div>
-    <table id="search">
-        <tr>
-            <td>search</td>
-            <td><input type="text" name="url"/></td>
-            <td><input type="button" name="crawle" value="GO"/></td>
-        </tr>
-        <tr>
-            <td></td><td align="center">results</td>
-        </tr>
-        <tr>
-            <td>
-                <div id="results"></div>
-            </td>
-        </tr>
-    </table>
+    <form action="servlet-parameters" method="GET">
+        <table id="search">
+            <tr>
+                <td>search</td>
+                <td><input type="text" name="url"/></td>
+                <td><input type="submit" name="search" value="GO"/></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td align="center">results</td>
+            </tr>
+            <tr>
+                <td>
+                    <div id="results"></div>
+                </td>
+            </tr>
+        </table>
+    </form>
 </div>
-<a href="/">Home</a>
+<a href="/index.jsp">Home</a>
 </body>
 </html>
